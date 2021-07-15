@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Yanik\Desktop\GamingSurvey\css\stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+    <div class="wholepage">
+        <div class="heading">
+            <h1 id="title">Dasani's Gaming Survey</h1>
+            <p id="description">This survey will take approximately 2-3 minutes of your time.</p>
+        </div>
+
+        <div class="surveydiv">
+            <form id="survey-form">
+
+                <div class="entry">
+                    <label id="name-label" for="name">Name</label><br>
+                    <input id="name" type="text" placeholder="Enter Your Name" required>
+                    
+                    <label id="email-label" for="email">Email</label><br>
+                    <input id="email" type="email" placeholder="Enter Your Email Address" required>
+                    
+                    <label id="number-label" for="number">Age</label><br>
+                    <input id="number" type="number" min="1" max="100" placeholder="Enter your Age">
+                </div>
+
+                <div class="dropdown">
+                    <label id="dropdown" for="platform">What platform do you primarily game on?</label>
+                    <select name="platform" id="dropdown">
+                        <option value="pc">Gaming Pc</option>
+                        <option value="ps5">PS5</option>
+                        <option value="xboxxs">Xbox X/S</option>
+                        <option value="ps4">PS4</option>
+                        <option value="xboxone">Xbox One</option>
+                        <option value="switch">Nintendo Switch</option>
+                        <option value="ios">Ios</option>
+                        <option value="android">Android</option>
+                        <option value="older">An Older Console</option>
+                    </select>
+                </div>
+
+
+                <div class="radio">
+                    <p>On a normal day, how long do you spend playing video games?</p>
+                    <label for="sixplus">
+                        <input id="sixplus" type="radio" name="timespent" value="sixplus"> 6 or more Hours
+                    </label>
+                    <label for="four-five">
+                        <input id="four-five" type="radio" name="timespent" value="four-five"> 4-5 Hours
+                    </label>
+                    <label for="two-three">
+                        <input id="two-three" type="radio" name="timespent" value="two-three"> 2-3 Hours
+                    </label>
+                    <label for="less-one">
+                        <input id="less-one" type="radio" name="timespent" value="less-one"> 1 Hour or less
+                    </label>
+                </div>
+
+                <div class="checkboxes">
+                    <p>What type of games do you play?</p>
+                    <label for="fps">
+                        <input id="fps" type="checkbox" name="games" value="fps"> FPS
+                    </label>
+                    <label for="platform">
+                        <input id="platform" type="checkbox" name="games" value="platform"> Platformers
+                    </label>
+                    <label for="action-adventure">
+                        <input id="action-adventure" type="checkbox" name="games" value="action-adventure"> Action-Adventure
+                    </label>
+                    <label for="roleplay">
+                        <input id="roleplay" type="checkbox" name="games" value="roleplay"> Roleplaying
+                    </label>
+                    <label for="simulation">
+                        <input id="simulation" type="checkbox" name="games" value="simulation"> Simulation
+                    </label>
+                    <label for="strategy">
+                        <input id="strategy" type="checkbox" name="games" value="strategy"> Strategy
+                    </label>
+                    <label for="sports-race">
+                        <input id="sports-race" type="checkbox" name="games" value="sports-race"> Sports/Racing
+                    </label>
+                    <label for="br">
+                        <input id="br" type="checkbox" name="games" value="br"> Battle Royale
+                    </label>
+                    <label for="fighting">
+                        <input id="fighting" type="checkbox" name="games" value="fighting"> Fighting games
+                    </label>
+                    <label for="sandbox">
+                        <input id="sandbox" type="checkbox" name="games" value="sandbox"> Sandbox
+                    </label>
+
+                    <label id="others" for="others">Others?</label>
+                    <input id="others" type="text" placeholder="?">
+                </div>
+
+                <div class="comment-box">
+                    <label for="comments">Any Additional Comments or Feedback on Survey Improvements?</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50">
+                    </textarea>
+                </div>
+
+                <button id="submit" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    </body>
+
+
+
+</html>
